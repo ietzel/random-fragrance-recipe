@@ -4,7 +4,7 @@ MODULE VRE_DMC;
   
   PROCEDURE VRE_DMC*;
   BEGIN
-    Texts.WriteString(W, "In terms of positive neurochemistry, very repetive excitement increases, depressive marketing campaigns decreases.");
+    Texts.WriteString(W, "In terms of positive neurochemistry, very repetive excitement increases, depressive campaigns decreases.");
     Texts.WriteLn(W);
     Texts.Append(Oberon.Log, W.buf);
   END World;
